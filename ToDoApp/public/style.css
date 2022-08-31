@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200&family=Lato:wght@300&family=Quicksand:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #16123f;
+}
+
+body {
+    background-color: #c7ddcc;
+    color: white;
+    font-family: 'Albert Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#textstore {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h3 {
+    margin: 15px 0;
+}
+
+button {
+    background-color: #fff;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+input {
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+}

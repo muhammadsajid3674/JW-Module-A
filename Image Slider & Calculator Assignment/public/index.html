@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Image Slider -->
+    <div class="slideshow-container">
+        <h1>Image Slider</h1>
+        <div class="imgAll">
+            <img src="img/1.jpg" style="width:100%">
+        </div>
+
+        <div class="imgAll">
+            <img src="img/2.jpg" style="width:100%">
+        </div>
+        <div class="imgAll">
+            <img src="img/3.jpg" style="width:100%">
+        </div>
+        <div class="imgAll">
+            <img src="img/7.jpg" style="width:100%">
+        </div>
+        <div class="imgAll">
+            <img src="img/6.jpg" style="width:100%">
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+        <!-- Calculator -->
+    <h1>Calculator</h1>
+    <div class="calculatorMain">
+        <div class="calculator" id="calculator">
+            <input type="text" disabled name="" id="calcField">
+            <div class="calcBtn">
+                <button onclick="calculate(1)" type="button">1</button>
+                <button onclick="calculate(2)" type="button">2</button>
+                <button onclick="calculate(3)" type="button">3</button>
+                <button onclick="calculate('+')" type="button">+</button>
+                <button onclick="calculate(4)" type="button">4</button>
+                <button onclick="calculate(5)" type="button">5</button>
+                <button onclick="calculate(6)" type="button">6</button>
+                <button onclick="calculate('-')" type="button">-</button>
+                <button onclick="calculate(7)" type="button">7</button>
+                <button onclick="calculate(8)" type="button">8</button>
+                <button onclick="calculate(9)" type="button">9</button>
+                <button onclick="calculate('*')" type="button">*</button>
+                <button onclick="calculate(0)" type="button">0</button>
+                <button onclick="clearField()" type="button">C</button>
+                <button onclick="answer()" type="button">=</button>
+                <button onclick="calculate('/')" type="button">/</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

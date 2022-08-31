@@ -1,0 +1,40 @@
+body{
+    background: #14365d;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    height: 100%;
+}
+
+.wrapper{
+    width: 800px;
+    margin: 30px auto;
+    color: #fff;
+    text-align: center;
+}
+
+h1, h2, h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+#minutes, #seconds, #tens{
+    font-size: 2em;
+}
+
+button{
+    background: #14365d;
+    color: #fff;
+    border: solid 1px #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 18px 10px; 
+    margin: 10px;
+    font-size: 1.2em;
+    width: 180px;
+    outline: none;
+    text-decoration: none;
+}
+ button:hover{
+     background: #2F5C8F;
+     border: solid 1px #14365d;
+ }

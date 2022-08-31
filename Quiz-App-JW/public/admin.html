@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Quiz App JW</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="stylesheet" href="css/highscores.css"> -->
+  </head>
+  <body>
+
+    <!---------------------- Log in Section ----------------------->
+    <section class="custPosLogin" id="custLogin">
+      <div class="container">
+        <div class="custLogIn">
+          <h2>Admin Login</h2>
+          <input type="text" placeholder="User Name" id="adminName">
+          <input type="password" placeholder="Password" id="adminPass">
+          <button class="btn" onclick="admin()">Submit</button>
+        </div>
+      </div>
+    </section>
+    
+    <!----------------- Push Question To Database ------------------>
+    <section class="custPosData" id="custData">
+      <div class="container" style="flex-direction: column;">
+        <h2>Push Question To Database</h2>
+        <div class="pushQuesCus">
+          <textarea id="questionPush" cols="50" rows="5" placeholder="Enter Question...."></textarea>
+            <input type="text" id="option1" placeholder="Option 1">
+            <input type="text" id="option2" placeholder="Option 2">
+            <input type="text" id="option3" placeholder="Option 3">
+            <input type="text" id="option4" placeholder="Option 4">
+            <input type="text" id="correctAns" placeholder="Correct Answer">
+          </div>
+          <button class="btn" onclick="pushingData()">Submit</button>
+      </div>
+      <div class="custData" id="existingData">
+        <h1>Existing Data</h1>
+      </div>
+    </section>
+
+    <script type="module" src="js/admin.js"></script>
+  </body>
+</html>

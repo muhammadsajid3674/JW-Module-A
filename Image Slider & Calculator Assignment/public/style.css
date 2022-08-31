@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Dancing+Script:wght@500&family=Lato:ital,wght@1,300&family=Montserrat:wght@300&display=swap');
+
+* {
+    box-sizing: border-box
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #016170;
+}
+/* ////////// Image Slider ////////// */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.imgAll {
+    display: none;
+}
+
+.prev,
+.next {
+    display: flex;
+    height: 89.3%;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    top: 10.2%;
+    width: auto;
+    /* margin-top: -22px; */
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: #016170;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* ////////// Calculator ///////////  */
+
+.calculatorMain{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.calculator{
+    width: 400px;
+    height: 500px;
+}
+.calculator input{
+    width: 100%;
+    height: 100px;
+    font-size: 40px;
+    border: 2px solid #016170;
+}
+.calcBtn{
+    display: flex;
+    flex-wrap: wrap;
+}
+.calcBtn button{
+    height: 100px;
+    width: 100px;
+    font-size: 26px;
+    margin: 0px;
+    background-color: #016170;
+    color: #fff;
+    border-color: aliceblue;
+}
+.calcBtn button:hover{
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5) inset;
+    cursor: pointer;
+}
